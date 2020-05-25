@@ -5,30 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wizytówka</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    
   </head>
   <body>
-    <main>
-      <article>
-        <img src="avatar.png" alt="avatar" />
-        <header>
-          <h1>
+    <main class="main">
+      <article class="person">
+        <img class="person__image" src="avatar.png" alt="avatar" />
+        <header class="person__details">
+          <h1 class="person__name">
             Anna Udziela
           </h1>
-        <p>
-          translator / junior frontend developer / UX to be :)</p>
-    </header>
-      <p>
-      Z zamiłowania i wykształcenia - tłumaczka z języka rosyjskiego. Zdarza mi
-      się być też wykładowcą na UJ. Obecnie PMO. Od przyszłego roku - planuję
-      zostać junior frontend developerem lub UX designerem. Jestem energiczna,
-      kreatywna i uwielbiam gotować. Kocham zimę, góry i snowboard. W lecie
-      próbuję ujarzmić deskę surfingową i żagle.</p>
-      <p>W sieci: Facebook, GitHub,
-      Instagram.
-    </p>
-    
-    </article>
+          <p class="person__position">
+            translator / junior frontend developer / UX to be :)
+          </p>
+        </header>
+        <p class="person__description">
+          Z zamiłowania i wykształcenia - <strong class="special"> języka rosyjskiego.</strong> Nieetatowy wykładowca na UJ. Obecnie PMO. Wkrótce planuje zostać <strong class="special">junior frontend developerem lub UX designerem.</strong> Energiczna, kreatywna, uwielbia gotować. Kocha zimę, góry i
+          snowboard. W lecie próbuje ujarzmić deskę surfingową i żagle.
+        </p>
+        <p class="person__description">
+          Znajdziesz mnie tutaj: <a class="person__link" href="https://www.facebook.com/anna.udziela">Facebook</a>,<a class="person__link" href="https://github.com/annaudziela"> GitHub</a>, <a class="person__link" href="https://www.instagram.com/ania_udziela/">Instagram.</a>
+        </p>
+      </article>
     </main>
   </body>
 </html>

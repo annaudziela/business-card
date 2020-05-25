@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *:after {
+    box-sizing: inherit;
+
+}
+body {
+  background: linear-gradient(
+    335deg,
+    rgba(219, 171, 190, 1) 0%,
+    rgba(124, 108, 119, 0.8701855742296919) 47%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Muli', sans-serif;
+}
+
+.main {
+  background: #f8f8f8;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
+  padding: 32px;
+
+}
+.person {
+
+}
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
+}
+.person__link {
+    color: rgba(124, 108, 119, 0.767);
+}
+
+.person__name {
+font-size: 36px;
+margin: 0px;
+font-weight: normal;
+}
+.person__position {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0px;
+    color: rgba(124, 108, 119, 0.767);
+}
+
+.special {
+    color: #CA90D7;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
