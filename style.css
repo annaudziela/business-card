@@ -1,59 +1,80 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*, *::before, *:after {
-    box-sizing: inherit;
-
+*,
+*::before,
+*:after {
+  box-sizing: inherit;
 }
 body {
-  background: linear-gradient(
-    335deg,
-    rgba(219, 171, 190, 1) 0%,
-    rgba(124, 108, 119, 0.8701855742296919) 47%
-  );
+  
+  background: rgba(74, 78, 105, 0.774);
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
+  color: #312F2F;
 }
 
 .main {
-  background: #f8f8f8;
+    background: #F2E9E4;
   border-radius: 16px;
   width: 624px;
   margin: 16px;
   padding: 32px;
-
 }
 .person {
-
+  display: flex;
+  flex-direction: row;
 }
 .person__description {
-    font-size: 16px;
-    line-height: 22px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-right: 15px;
+  
 }
+
+.person__description--widht-margin {
+  margin-bottom: 22px;
+}
+.person__details {
+  margin-bottom: 24px;
+  margin-right: 15px;
+  text-align: left;
+  
+}
+.person__image {
+  margin-right: 32px;
+  align-self: flex-start;
+  width: 140px;
+  height: 148px;
+  border-radius: 50%;
+  
+}
+
 .person__link {
-    color: rgba(124, 108, 119, 0.767);
+  color: rgba(124, 108, 119, 0.767);
+  text-decoration: none;
 }
 
 .person__name {
-font-size: 36px;
-margin: 0px;
-font-weight: normal;
+  font-size: 34px;
+  margin: 0px;
+  font-weight: lighter;
+  color:#6B4A63;
+  
+  
 }
 .person__position {
-    font-size: 18px;
-    font-style: italic;
-    margin: 0px;
-    color: rgba(124, 108, 119, 0.767);
+  font-size: 16px;
+  font-style: italic;
+  margin: 0px;
+  color:rgba(48, 22, 41, 0.87);
 }
 
 .special {
-    color: #CA90D7;
-    font-weight: normal;
-    font-style: normal;
+    color:#6B4A63;
+  font-weight: normal;
 }
-
-
