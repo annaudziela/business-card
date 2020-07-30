@@ -51,6 +51,8 @@ body {
   width: 140px;
   height: 148px;
   border-radius: 50%;
+  display: block; 
+  flex-shrink: 0;
   
 }
 
