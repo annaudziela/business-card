@@ -16,10 +16,31 @@ body {
   min-height: 100vh;
   font-family: 'Frank Ruhl Libre', serif;
   color: #312F2F;
+
+}
+
+.button--js {
+  color: #312F2F;
+  background-color: lavenderblush;
+  border: none;
+  border-radius: 16px;
+
+}
+.button--js:focus {
+  border: 3px dotted rgba(200, 69, 212, 0.671);
+}
+.button--js:hover {
+  color: rgba(179, 98, 211, 0.555);
+}
+
+.entry--js {
+  color: #312F2F;
+  border: lavenderblush dotted 5px;
+  border-radius: 16px;
 }
 
 .main {
-    background: #F2E9E4;
+  background: #F2E9E4;
   border-radius: 16px;
   width: 624px;
   margin: 16px;
@@ -53,6 +74,7 @@ body {
   border-radius: 50%;
   display: block; 
   flex-shrink: 0;
+  border: double 3px grey;
   
 }
 
