@@ -1,3 +1,3 @@
-![cover](/bc_cover.png)
+![cover](/new_bccover.png)
 # This is my business card 
 Here, in a nutshell, you can find out who I'm. 
